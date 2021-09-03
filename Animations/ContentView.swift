@@ -18,7 +18,7 @@ struct ContentView: View {
             }
         }
         .padding(50)
-        .background(Color.red)
+        .background(Color.green)
         .foregroundColor(.white)
         .clipShape(Circle())
         .rotation3DEffect(.degrees(animationAmount), axis: (x: 0, y: 1, z: 0))
